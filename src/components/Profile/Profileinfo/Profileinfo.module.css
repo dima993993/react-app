@@ -1,0 +1,38 @@
+.profile_info {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  position: relative;
+}
+.profile_info:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000000;
+  opacity: 0.5;
+  z-index: 2;
+}
+.profile_info_wrapper {
+  display: flex;
+  align-items: center;
+}
+.profile_info_wrapper > div {
+  z-index: 3;
+}
+.profile_avatar {
+  margin-top: 150px;
+  margin-left: 50px;
+}
+.profile_avatar img {
+  width: 150px;
+}
+.profile_name {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.profile_description {
+  text-align: right;
+}

@@ -1,0 +1,63 @@
+.user_wrapper > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.user_wrapper > div:not(:last-child) {
+  border-bottom: 1px solid #023447;
+  padding-bottom: 15px;
+}
+.user_wrapper img {
+  width: 50px;
+  border-radius: 10px;
+}
+.user_wrapper > div > div {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.user_name {
+  margin-left: 20px;
+}
+.name_block {
+  display: flex;
+  align-items: center;
+}
+.btn_block {
+  justify-content: end;
+}
+.btn_block p {
+  font-size: 10px;
+  font-weight: 100;
+  margin-right: 20px;
+}
+.btn_block button {
+  background-color: #023447;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 30%;
+}
+.pages {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.pages > div {
+  margin: 10px;
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid #023447;
+  transition: 0.5s;
+  user-select: none;
+}
+.pages > div:hover {
+  background-color: #023447;
+}
+.select {
+  border: 1px solid gold !important;
+  color: gold;
+}

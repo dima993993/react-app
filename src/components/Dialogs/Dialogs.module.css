@@ -1,0 +1,57 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+}
+.dialogs > div {
+  padding: 30px;
+}
+.active {
+  color: gold;
+}
+.dialog {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.dialog > div:last-child {
+  margin-left: 10px;
+}
+.dialogsItems {
+  border-right: 1px solid #023447;
+}
+.dialog img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.messages > div:nth-child(2n) {
+  margin: 0 0 0 auto;
+}
+.message {
+  width: 40%;
+  border: 1px solid #023447;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 10px;
+}
+textarea {
+  background-color: #042330;
+  border: none;
+  outline: none;
+  resize: none;
+  width: 100%;
+  height: 60px;
+  margin-top: 30px;
+}
+.addMessage_wrapper {
+  margin-top: 40px;
+}
+.addMessage {
+  border: 1px solid #ffffff;
+  padding: 10px;
+  transition: 0.5s;
+}
+.addMessage:hover {
+  background-color: #ffffff;
+  color: #023447;
+}

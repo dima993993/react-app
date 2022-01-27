@@ -1,0 +1,31 @@
+.my_posts {
+  margin-top: 150px;
+}
+.textAreaPost {
+  background-color: #042330;
+  width: 600px;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.wrapper_btn_post {
+  margin-top: 20px;
+}
+
+.btn_post {
+  border: 1px solid #ffffff;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.btn_post:hover {
+  background-color: #fff;
+  color: #002635;
+}
+
+.wrapper_posts {
+  margin-top: 40px;
+}

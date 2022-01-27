@@ -1,0 +1,26 @@
+.post_wrapper {
+  border: 1px solid #023447;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.image_block img {
+  width: 50px;
+  border-radius: 50%;
+}
+.post {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #023447;
+  padding: 20px;
+}
+.post > div {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.like {
+  padding: 10px;
+  text-align: right;
+}
+.like a {
+  color: #ff0000;
+}
